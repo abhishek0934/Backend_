@@ -35,7 +35,7 @@ require('dotenv').config()
 
 const app=express()
 
-const port=1000;
+const port=2000;
 
 app.get('/',(req,res)=>{
 res.send("hello I am Abhishek")
